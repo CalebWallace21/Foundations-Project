@@ -1,0 +1,36 @@
+[
+    {
+        "id":1,
+        "name": "Sour Gummy Worms",
+        "picture": "SourGummyWorms.avif",
+        "rating": 9
+    },
+
+    {
+        "id":2,
+        "name": "Chocolate Covered Cinnamon Bears",
+        "picture": "CinnamonBear.png",
+        "rating": 8
+    },
+
+    {
+        "id":3,
+        "name": "Starbursts",
+        "picture": "Starbursts.png",
+        "rating": 5
+    },
+
+    {
+        "id":4,
+        "name": "Broccoli",
+        "picture": "broccoli.avif",
+        "rating": 2
+    },
+
+    {
+        "id":5,
+        "name": "Jelly Beans",
+        "picture": "jellybeans.avif",
+        "rating": 4
+    }
+]

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Rating</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>The King Candy!</h1>
+        <h2>Add, rate, and show pictures of your favorite and least favorite candy!</h2>        
+    </header>
+
+    <main>
+
+        <h3>Add your own Candy! Ratings are based on 10 being the best!</h3>
+        <input 
+            type='text' id="name" placeholder="What's the candys name?"/>
+        <input 
+            type='text' id="rating" placeholder='Rate this candy 1-10'/>
+        <input type='text' id="image" placeholder='Paste a candy image URL'/>
+        <button id="add-btn">Add Candy</button>    
+
+    <section id="candy-container"></section>
+
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
